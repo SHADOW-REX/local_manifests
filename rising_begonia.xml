@@ -1,0 +1,33 @@
+<manifest>
+    <!-- Remotes -->
+    <remote name="sado" fetch="https://github.com/SHADOW-REX"
+        revision="rising" />
+    <remote name="bb" fetch="https://bitbucket.org/Saikrishna1504"
+    	  revision="udc" />
+
+    <!-- Device / Kernel -->
+    <project path="device/redmi/begonia" name="android_device_redmi_begonia"
+        remote="sado" />
+    <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785"
+        remote="sado" />
+
+    <!-- Sepolicy -->
+    <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy"
+        remote="sado" />
+
+    <!-- Hardware -->
+    <project path="hardware/mediatek" name="android_hardware_mediatek"
+        remote="sado" />
+
+    <!-- Proprietary vendor -->
+    <project path="vendor/redmi/begonia" name="android_vendor_redmi_begonia"
+        remote="sado" />
+    <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims"
+        remote="sado" />
+    <project path="vendor/redmi/begonia-firmware" name="android_vendor_redmi_begonia-firmware"
+        remote="sado" />
+
+    <!-- MiuiLeica Cam -->
+    <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica"
+        remote="bb" />
+</manifest>
