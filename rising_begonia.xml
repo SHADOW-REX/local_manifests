@@ -9,7 +9,7 @@
     <project path="device/redmi/begonia" name="android_device_redmi_begonia"
         remote="sado" />
     <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785"
-        remote="sado" />
+        remote="sado" revision="rising-ksu" />
 
     <!-- Sepolicy -->
     <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy"
